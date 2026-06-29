@@ -42,7 +42,60 @@ Error message is displayed
 
 ---
 
-### TC-003: Locked Out User
+### TC0003: Empty User Name
+
+**Preconditions:**
+Empty Username
+
+**Test Data:**
+Username: blank
+Password: secret_sauce
+
+**Steps:**
+1. Enter blank username
+2. Enter password
+3. click Login button
+
+**Expected Result:**
+User should remain on login page and see an error indicating account has been locked
+
+---
+
+### TC-004: Empty Password
+
+**Preconditions:**
+Empty Password
+
+**Test Data:**
+Username: standard_user
+Password: blank
+
+**Steps:**
+1. Enter username
+2. Enter blank password
+3. Click Login button
+
+**Expected Result:**
+Password required message
+
+### TC-005: Both fields empty
+
+**Precondition:**
+Both fields empty
+
+**Test Data:**
+Username: emtpy
+Password: empty
+
+**Steps:**
+1. username blank
+2. password blank
+3. Click Login button
+
+**Expected Result:**
+Username required message
+
+### TC-006: Locked Out User
 
 **Preconditions:**
 User is on login page
