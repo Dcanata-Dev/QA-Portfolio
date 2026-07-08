@@ -39,29 +39,30 @@ Execution includes:
 ---
 
 ## Tools Used
-- Google Sheets (Test case management)
-- Jira (Defect tracking)
-- Github (Documentation & version control)
-- Chrome browser (Manual testing)
+- Google Sheets (Test case management and execution tracking)
+- Jira (Defect tracking and workflow management)
+- Github (QA Documentation & project version control)
+- Chrome browser (Manual test execution environment)
 
 ---
 
 ## Scope Coverage 
 ### Positive Testing
-- Valid login scenario
+- Valid user login with correct credentials
+- Successful navigation to inventory page after authentication
 
 ### Negative Testing
-- Invalid password
-- Empty username
-- Empty password
-- Locked-out user
+- Invalid password validation
+- Empty username validation
+- Empty password validation
+- Locked-out user validation
 
 ---
 
 ## Summary
-This test cycle validates the core login functionality of the SauceDemo application using structured manual QA testing. All test cases were executed and documented, with defects tracked in Jira where applicable.
+This test cycle evaluates the core login functionality of the SauceDemo application using structured manual QA testing. All test cases were executed and documented, with issues tracked and managed through Jira where applicable.
 
 ---
 
-## Status
-Project 01 - Completed (v1.0)
+## Project Status
+Completed (v1.0) - Manual login test cycle executed and documented.
